@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightgreen">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18sp"
+        android:background="@color/semiblack"
+        android:textColor="@color/white"
+        android:text="Welcome"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/button_toast"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="381dp"
+        android:layout_height="79dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="16dp"
+        android:text="Toast"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_view_count"
+        android:layout_width="381dp"
+        android:layout_height="445dp"
+        android:layout_gravity="center"
+        android:background="@color/semiblack"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="150sp" />
+
+    <Button
+        android:id="@+id/button_count"
+        android:layout_width="381dp"
+        android:layout_height="79dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="Count"
+        android:textSize="20sp" />
+
+</LinearLayout>

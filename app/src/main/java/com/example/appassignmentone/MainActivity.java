@@ -9,8 +9,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    private int count = 0;  // Variable to store the count value
-    private TextView textViewCount;  // Reference to the TextView
+    private int count = 0;
+    private TextView textViewCount;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
